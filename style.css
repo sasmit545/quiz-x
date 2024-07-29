@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+div{
+    margin: 0;
+}
+body{
+    background-color: #F5F7FB;
+    margin: 0;
+    font-family: "Karla", sans-serif;
+}
+.yellow-section{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 300px;
+    z-index: -10;
+}
+.blue-section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    z-index: -10;
+
+}
+.start{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+h1{
+    margin: 0;
+}
+.purple-btn{
+    font-family: "Karla", sans-serif;
+    background-color: #4D5B9E;
+    color:#F5F7FB;
+    padding: 15px 24px;
+    border-radius: 999px;
+}
+.game{
+    padding: 20px 0px ;
+    margin-top: 15px;
+}
+.question{
+    max-width: 900px;
+    
+    margin: auto;
+    padding-bottom: 20px;
+    border-color:#DBDEF0;
+    border-bottom-style: solid;
+    
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.option {
+    border-radius: 40px;
+    padding: 10px 16px;
+    border-style: solid;
+    
+    min-width: 36px;
+    color: #293264;
+}
+
+.option,.purple-btn:hover {
+
+    cursor: pointer;
+}
+
+.bottom-stats{
+    margin-top: 20px;
+    text-align: center;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.font-big{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
